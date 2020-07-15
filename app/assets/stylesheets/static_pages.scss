@@ -40,7 +40,7 @@ h1 {
 //  background-image: image-url("Photo1.jpg");
 //}
 
-#slide1 {
+#slide2 {
   text-align: left;
   background-color: #343a40;
   h1 {
@@ -52,7 +52,7 @@ h1 {
 
 }
 
-#slide2 {
+#slide1 {
   background-color: #eeeeee;
   //h1, h3, p {
   //  color: #fffc5f;
@@ -65,23 +65,37 @@ h1 {
     font-size: 1.25rem;
   }
 }
+.slide2-text{
+  margin-top: 2.5rem;
 
+}
 .image {
   max-width: 100%;
   object-fit: cover;
+  border: 1px solid black;
+}
+
+.construction {
+  margin-top: 4.5rem;
+  border: 1px solid black;
+}
+
+.tower-image {
+  margin-top: 0.5rem;
 }
 
 .image1 {
   object-fit: cover;
   max-width: 100%;
   margin-bottom: 0.5rem;
-
+  border: 1px solid black;
 }
 
 .image2 {
   object-fit: cover;
   max-width: 100%;
   margin-bottom: 0.5rem;
+  border: 1px solid black;
 }
 
 .fit-right {
@@ -108,3 +122,18 @@ h1 {
   border-width: 18.5px 17px 18.5px 0;
   mix-blend-mode: difference;
 }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  height: 4px;
+  width: 4px;
+  border: 0;
+  background: #000000;
+  left: 50%;
+  top: 50%;
+  margin: -2px 0 0 -2px;
+  transition: all 0.1s ease-in-out;
+}
+

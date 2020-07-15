@@ -16,7 +16,7 @@ $(document).ready(function() {
         navigationTooltips:['Project 1', 'Project 2', 'Project 3', 'Project 4'],
         easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
         slidesNavigation: true,
-        controlArrows: true,
+        controlArrows: false,
         css3: true
     });
 });

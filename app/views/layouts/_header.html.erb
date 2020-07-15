@@ -3,9 +3,11 @@
     <div class="bg-dark p-3">
       <h4><%= link_to 'Home', root_path, class: "text-white"%></h4>
       <h5><%= link_to 'Contact', contacts_index_path, class:"custom"%></h5>
+      <h5 data-menuanchor="section1"><a href="#project1" class="project-link">The Laburnum</a></h5>
+      <h5 data-menuanchor="section2"><a href="#project2" class="project-link">Birla Corporate Office</a></h5>
     </div>
   </div>
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-dark bg-dark" id="navbar">
     <span class="navbar-brand title-name">VANDANA SHARMA</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

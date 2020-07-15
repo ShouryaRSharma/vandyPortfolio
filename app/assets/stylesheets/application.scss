@@ -49,6 +49,14 @@ body {
   }
 }
 
+.project-link{
+  color: #666666;
+  &:hover {
+    color: white;
+    transition: 0.5s;
+  }
+}
+
 .title-name {
   font-family: 'Architects Daughter', cursive;
   font-size: 1.75em;
