@@ -1,0 +1,7 @@
+{
+  "name": "website",
+  "private": true,
+  "dependencies": {
+    "fullpage.js": "^3.0.9"
+  }
+}

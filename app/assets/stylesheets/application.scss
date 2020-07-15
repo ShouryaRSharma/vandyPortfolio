@@ -1,0 +1,63 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require jquery-ui
+ *= require_self
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import "bootstrap";
+@import "fullpage.js/dist/fullpage.css";
+@import "static_pages";
+@import "extend_fix/framework_and_overrides";
+
+body {
+  background-color: #eeeeee;
+}
+
+#main-content {
+  margin-bottom: 50px;
+  padding: 20%;
+  height: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: -o-fit-content;
+  font-size: 15pt;
+  flex: 1;
+}
+
+.custom{
+  color: #666666;
+  &:hover {
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+.text-white {
+  &:hover {
+    transition: 0.5s;
+  }
+}
+
+.title-name {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.75em;
+}
+
+.li {
+  background-color: black;
+  border-color: #eeeeee;
+  color: black;
+}
+
+

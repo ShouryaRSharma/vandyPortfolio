@@ -1,0 +1,45 @@
+<div id="main-content" class="container">
+<h1><%= t('contacts.title') %></h1>
+    <%= form_with(model: @sent_mail, local: true, url: send_mail_path, :html => { :onsubmit => 'return validateMail()' }) do |f|%>
+
+      <% if @sent_mail.errors.any? %>
+        <div id="error_explanation" class="container">
+          <h2><%= pluralize(@mail.errors.count, "error") %> <%= t('contacts.validation_error') %></h2>
+
+          <ul>
+            <% @sent_mail.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class="form-group">
+        <%= f.text_field :name, autofocus: true, :class => 'form-control', :maxlength => 255, placeholder: "Name" %>
+        <div class="invalid-feedback" id="name-error"></div>
+      </div>
+
+      <div class="form-group">
+        <%= f.text_field :email, autofocus: true, autocomplete: "email", :class => 'form-control', :maxlength => 255, placeholder: "Email" %>
+        <div class="invalid-feedback" id="email-error"></div>
+      </div>
+
+      <div class="form-group">
+        <%= f.text_field :telephone, autofocus: true, :class => 'form-control', :maxlength => 255, placeholder: "Phone Number (optional)" %>
+        <div class="invalid-feedback" id="telephone-error"></div>
+      </div>
+
+      <div class="form-group">
+        <%= f.text_field :title, autofocus: true, :class => 'form-control', :maxlength => 255, placeholder: "Title (optional)" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.text_area :message, autofocus: true, :class => 'form-control', :rows => 5, placeholder: "Your Message" %>
+        <div class="invalid-feedback" id="message-error"></div>
+      </div>
+
+      <div class="actions">
+        <%= f.submit "Send message", :class => 'btn btn-primary', :role => "button" %>
+      </div>
+    <% end %>
+</div>

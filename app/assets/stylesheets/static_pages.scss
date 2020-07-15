@@ -1,0 +1,110 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  text-align:center;
+}
+
+#section1,
+#section2,
+#section3,
+#section4 {
+  background-size: cover;
+}
+#section1 {
+  //background-image: image-url("slide2.png");
+  h1 {
+    top: 0;
+  }
+}
+
+.text-top {
+  top: 0;
+}
+//
+//#section2 {
+//  background-image: image-url("Photo1.jpg");
+//}
+//
+//#section3 {
+//  background-image: image-url("Photo.jpg");
+//}
+//
+//#section4 {
+//  background-image: image-url("Photo1.jpg");
+//}
+
+#slide1 {
+  text-align: left;
+  background-color: #343a40;
+  h1 {
+    font-size: 3.25em;
+  }
+  h1, h2, h3, h4, p {
+    color: white;
+  }
+
+}
+
+#slide2 {
+  background-color: #eeeeee;
+  //h1, h3, p {
+  //  color: #fffc5f;
+  //}
+  h1, h2, h3, h4, p {
+    text-align: left;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+.image {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.image1 {
+  object-fit: cover;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+
+}
+
+.image2 {
+  object-fit: cover;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.fit-right {
+  padding-right: 0;
+  margin-right: 0.3rem;
+}
+
+.fit-left {
+  align-content: end;
+  object-fit: cover;
+  padding-left: 0;
+  margin-left: 0.3rem;
+}
+
+.fp-controlArrow.fp-next {
+  right: 10px;
+  border-width: 18.5px 0 18.5px 17px;
+  mix-blend-mode: difference;
+}
+
+.fp-controlArrow.fp-prev {
+  left: 10px;
+  width: 0;
+  border-width: 18.5px 17px 18.5px 0;
+  mix-blend-mode: difference;
+}
