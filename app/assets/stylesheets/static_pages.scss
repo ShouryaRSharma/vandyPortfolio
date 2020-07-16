@@ -11,10 +11,8 @@ h1 {
   text-align:center;
 }
 
-#section1,
-#section2,
-#section3,
-#section4 {
+#section0, #section1, #section2,
+#section3, #section4 {
   background-size: cover;
 }
 #section1 {
@@ -23,6 +21,8 @@ h1 {
     top: 0;
   }
 }
+
+
 
 .text-top {
   top: 0;
@@ -57,6 +57,9 @@ h1 {
   //h1, h3, p {
   //  color: #fffc5f;
   //}
+  h1 {
+    font-size: 3.25em;
+  }
   h1, h2, h3, h4, p {
     text-align: left;
   }
@@ -65,8 +68,14 @@ h1 {
     font-size: 1.25rem;
   }
 }
+
+.space {
+  margin-bottom: 1rem;
+}
+
 .slide2-text{
-  margin-top: 2.5rem;
+  //margin-top: 2.5rem;
+  font-size: 1.1rem;
 
 }
 .image {

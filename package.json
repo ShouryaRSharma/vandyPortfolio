@@ -2,6 +2,7 @@
   "name": "website",
   "private": true,
   "dependencies": {
-    "fullpage.js": "^3.0.9"
+    "fullpage.js": "^3.0.9",
+    "gsap": "^3.4.0"
   }
 }
