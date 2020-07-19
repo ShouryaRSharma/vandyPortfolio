@@ -20,3 +20,19 @@
 //= require fullpage.js/vendors/scrolloverflow.js
 //= require fullpage.js/dist/fullpage.js
 //= require_tree .
+
+
+var previousScroll = 20;
+    // scroll functions
+$(window).scroll(function(e) {
+    // add/remove class to navbar when scrolling to hide/show
+    var scroll = $(window).scrollTop();
+    if (scroll >= previousScroll) {
+        $('.pos-f-t').addClass("navbar-hide");
+
+    }else if (scroll < previousScroll) {
+        $('.pos-f-t').removeClass("navbar-hide");
+    }
+    previousScroll = scroll;
+
+});

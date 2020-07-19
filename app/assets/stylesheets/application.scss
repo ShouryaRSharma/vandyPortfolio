@@ -35,10 +35,22 @@ body {
   flex: 1;
 }
 
+.head {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.8s;
+  &:hover, &:after {
+    color: black;
+    text-decoration: none;
+    border-color: black;
+  }
+}
+
 .custom{
   color: #666666;
   &:hover {
-    color: white;
+    color: black;
     transition: 0.5s;
   }
 }
@@ -49,11 +61,16 @@ body {
   }
 }
 
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.73);
+}
+
 .project-link{
   color: #666666;
   &:hover {
-    color: white;
-    transition: 0.5s;
+    color: black;
+    transition: 0.8s;
   }
 }
 
@@ -68,4 +85,11 @@ body {
   color: black;
 }
 
+.navbar {
+  transition: top 0.5s ease;
+}
+
+.navbar-hide {
+  top: -82px;
+}
 

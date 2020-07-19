@@ -22,7 +22,10 @@ h1 {
   }
 }
 
-
+.text-padding {
+  padding-right: 0.75rem;
+  padding-left: 1rem;
+}
 
 .text-top {
   top: 0;
@@ -52,8 +55,12 @@ h1 {
 
 }
 
+.navbar:after {
+  border-bottom: 1px solid black;
+}
+
 #slide1 {
-  background-color: #eeeeee;
+  background-color: #f8f9fa;
   //h1, h3, p {
   //  color: #fffc5f;
   //}
