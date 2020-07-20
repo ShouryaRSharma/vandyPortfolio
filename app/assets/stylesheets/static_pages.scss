@@ -1,6 +1,9 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+$font: 'Architects Daughter', cursive;
+
 h1 {
   color: #000000;
   margin: 0;
@@ -43,6 +46,7 @@ h1 {
 //  background-image: image-url("Photo1.jpg");
 //}
 
+
 #slide2 {
   text-align: left;
   background-color: #343a40;
@@ -50,8 +54,13 @@ h1 {
     font-size: 3.25em;
   }
   h1, h2, h3, h4, p {
+    font-family: $font;
     color: white;
   }
+  //
+  //p {
+  //  font-size: 1.25rem;
+  //}
 
 }
 
@@ -68,12 +77,17 @@ h1 {
     font-size: 3.25em;
   }
   h1, h2, h3, h4, p {
+    font-family: $font;
     text-align: left;
   }
 
-  p {
-    font-size: 1.25rem;
-  }
+  //p {
+  //  font-size: 1.25rem;
+  //}
+}
+
+.overide {
+  font-size: 1.25rem;
 }
 
 .space {

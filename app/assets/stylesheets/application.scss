@@ -19,9 +19,10 @@
 @import "fullpage.js/dist/fullpage.css";
 @import "static_pages";
 @import "extend_fix/framework_and_overrides";
+$font: 'Architects Daughter', cursive;
 
 body {
-  background-color: #666666;
+  background-color: #343a40;
 }
 
 #main-content {
@@ -36,21 +37,21 @@ body {
 }
 
 .head {
-  color: black;
+  color: white;
   text-decoration: none;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
   transition: 0.8s;
   &:hover, &:after {
-    color: black;
+    color: white;
     text-decoration: none;
-    border-color: black;
+    border-color: white;
   }
 }
 
 .custom{
   color: #666666;
   &:hover {
-    color: black;
+    color: white;
     transition: 0.5s;
   }
 }
@@ -69,7 +70,7 @@ body {
 .project-link{
   color: #666666;
   &:hover {
-    color: black;
+    color: white;
     transition: 0.8s;
   }
 }
