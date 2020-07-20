@@ -20,10 +20,10 @@ $(document).ready(function() {
         css3: true,
         onLeave: (origin, destination, direction) => {
             const section = destination.item;
-            const title = section.querySelector("h4");
+            const title = section.querySelectorAll("h4");
             const tl = new TimelineMax({delay: 0.5});
             tl.fromTo(title, 0.5, { y: '50', opacity: 0}, {y:0, opacity: 1})
-            const subtitle = section.querySelector("h3");
+            const subtitle = section.querySelectorAll("h3");
             const tl1 = new TimelineMax({delay: 0.5});
             tl1.fromTo(subtitle, 0.5, { y: '50', opacity: 0}, {y:0, opacity: 1})
             const text = section.querySelectorAll("p");
