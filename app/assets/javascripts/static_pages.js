@@ -7,14 +7,14 @@ $(document).ready(function() {
         loopBottom: true,
         scrollOverflow: true,
         resize : true,
-        anchors:['project1', 'project2', 'project3', 'project4', 'project5', 'project6'],
+        anchors:['project1', 'project2', 'project3', 'project4', 'project5', 'project6', 'project7', 'project8'],
         autoScrolling: true,
         navigation: true,
         animateAnchor: false,
         navigationPosition: 'right',
         easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
         slidesNavigation: true,
-        controlArrows: false,
+        controlArrows: true,
         css3: true,
         onLeave: (origin, destination, direction) => {
             const section = destination.item;

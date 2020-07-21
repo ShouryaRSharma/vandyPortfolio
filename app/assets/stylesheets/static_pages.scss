@@ -128,6 +128,11 @@ h1 {
   border: 1px solid black;
 }
 
+.design-image {
+  max-height: 159.08px;
+
+}
+
 .fit-right {
   padding-right: 0;
   margin-right: 0.3rem;
@@ -140,18 +145,6 @@ h1 {
   margin-left: 0.3rem;
 }
 
-.fp-controlArrow.fp-next {
-  right: 10px;
-  border-width: 18.5px 0 18.5px 17px;
-  mix-blend-mode: difference;
-}
-
-.fp-controlArrow.fp-prev {
-  left: 10px;
-  width: 0;
-  border-width: 18.5px 17px 18.5px 0;
-  mix-blend-mode: difference;
-}
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   border-radius: 50%;
