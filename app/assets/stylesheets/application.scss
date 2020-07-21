@@ -19,12 +19,21 @@
 @import "fullpage.js/dist/fullpage.css";
 @import "static_pages";
 @import "extend_fix/framework_and_overrides";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 $font: 'Architects Daughter', cursive;
 
 body {
   background-color: #343a40;
   font-family: $font;
 }
+
+#aboutMe {
+  h5{
+    font-size: 1.5rem;
+  }
+}
+
 
 #main-content {
   margin-bottom: 50px;
@@ -54,6 +63,18 @@ body {
   &:hover {
     color: white;
     transition: 0.5s;
+  }
+}
+
+.btn-custom {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.8s;
+  &:hover, &:after {
+    color: black;
+    text-decoration: none;
+    border-color: black;
   }
 }
 
@@ -122,5 +143,9 @@ body {
   }
   .fp-controlArrow.fp-next {
     display: none;
+  }
+
+  .align {
+    float: none;
   }
 }

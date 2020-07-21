@@ -7,7 +7,7 @@ $(document).ready(function() {
         loopBottom: true,
         scrollOverflow: true,
         resize : true,
-        anchors:['project1', 'project2', 'project3', 'project4', 'project5', 'project6', 'project7', 'project8'],
+        anchors:['home', 'project1', 'project2', 'project3', 'project4', 'project5', 'project6', 'project7', 'project8'],
         autoScrolling: true,
         navigation: true,
         animateAnchor: false,
