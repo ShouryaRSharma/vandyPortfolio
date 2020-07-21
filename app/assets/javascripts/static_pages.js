@@ -6,7 +6,6 @@ $(document).ready(function() {
         verticalCentered: true,
         loopBottom: true,
         scrollOverflow: true,
-        scrollOverflowReset: true,
         resize : true,
         anchors:['project1', 'project2', 'project3', 'project4', 'project5', 'project6'],
         autoScrolling: true,
@@ -28,6 +27,9 @@ $(document).ready(function() {
             const text = section.querySelectorAll("p");
             const tl2 = new TimelineMax({delay: 0.5});
             tl2.fromTo(text, 0.5, { y: '50', opacity: 0}, {y:0, opacity: 1})
+            const caption = section.querySelectorAll("figcaption");
+            const tl3 = new TimelineMax({delay: 0.5});
+            tl3.fromTo(caption, 0.5, { y: '50', opacity: 0}, {y:0, opacity: 1})
         //     const construction = document.querySelectorAll('.construction');
         //     const tl3 = new TimelineMax({delay: 0.1})
         //     tl3.fromTo(construction, 1, { x:"100%", opacity: 0 }, {x:"0", opacity: 1});
