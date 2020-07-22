@@ -115,14 +115,6 @@ body {
   color: black;
 }
 
-.navbar {
-  transition: top 0.5s ease;
-}
-
-.navbar-hide {
-  top: -82px;
-}
-
 .fp-controlArrow.fp-prev {
   left:2rem;
   background: image_url("return.svg") no-repeat;
