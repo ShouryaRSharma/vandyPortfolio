@@ -91,9 +91,13 @@ body {
 
 .project-link{
   color: white;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.5s;
   &:hover {
-    color: lightyellow;
-    transition: 0.3s;
+    color: #caffee;
+    text-decoration: none;
+    border-color: #caffee;
   }
 }
 
