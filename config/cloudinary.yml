@@ -1,0 +1,17 @@
+production:
+  cloud_name: "dczqx9lg2"
+  api_key: "149638233558625"
+  api_secret: "-9cJh668wbExPKF7WfLHcid4-XA"
+  secure: true
+  cdn_subdomain: true
+  enhance_image_tag: true
+  static_file_support: true
+
+development:
+  cloud_name: "dczqx9lg2"
+  api_key: "149638233558625"
+  api_secret: "-9cJh668wbExPKF7WfLHcid4-XA"
+  secure: true
+  cdn_subdomain: true
+  enhance_image_tag: true
+  static_file_support: true
