@@ -1,0 +1,9 @@
+common: &default_settings
+  license_key: '8aad772c73d9cc1aed17363901c0cfaaa4f4NRAL'
+  app_name: 'VandyPortfolio'
+production:
+  <<: *default_settings
+  log_level: info
+development:
+  <<: *default_settings
+  log_level: debug
