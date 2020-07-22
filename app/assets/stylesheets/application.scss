@@ -16,11 +16,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import "bootstrap";
-@import "fullpage.js/dist/fullpage.css";
+//@import "fullpage.js/dist/fullpage.css";
 @import "static_pages";
 @import "extend_fix/framework_and_overrides";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "fullpage";
+
 $font: 'Architects Daughter', cursive;
 
 body {

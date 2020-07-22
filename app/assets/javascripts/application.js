@@ -17,8 +17,8 @@
 //= require bootstrap
 //= require activestorage
 //= require gsap/dist/gsap.js
-//= require fullpage.js/vendors/scrolloverflow.js
-//= require fullpage.js/dist/fullpage.js
+//= require scrolloverflow.js
+//= require fullpage.js
 //= require_tree .
 
 
