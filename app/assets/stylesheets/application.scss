@@ -24,10 +24,11 @@
 @import "static_pages";
 
 $font: 'Architects Daughter', cursive;
+$font1: 'Quicksand', sans-serif;
 
 body {
   background-color: #343a40;
-  font-family: $font;
+  font-family: $font1;
 }
 
 #aboutMe {
