@@ -1,3 +1,4 @@
+var mq = window.matchMedia("(max-width: 576px)");
 $(document).ready(function() {
     $('#fullpage').fullpage({
         licenseKey: '89B47A42-C1814683-8B1FC555-2A14C7D4',
@@ -10,9 +11,9 @@ $(document).ready(function() {
         anchors:['home', 'project1', 'project2', 'project3', 'project4', 'project5', 'project6', 'project7', 'project8'],
         autoScrolling: true,
         navigation: true,
-        animateAnchor: false,
+        animateAnchor: true,
         navigationPosition: 'right',
-        easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+        // easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
         slidesNavigation: true,
         controlArrows: true,
         css3: true,
