@@ -12,7 +12,7 @@ $(document).ready(function() {
         anchors:['home', 'project1', 'project2', 'project3', 'project4', 'project5', 'project6', 'project7', 'project8', "project9"],
         autoScrolling: true,
         navigation: true,
-        animateAnchor: false,
+        animateAnchor: true,
         navigationPosition: 'right',
         // easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
         slidesNavigation: true,
