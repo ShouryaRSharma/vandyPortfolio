@@ -7,6 +7,7 @@ $(document).ready(function() {
         verticalCentered: true,
         loopBottom: true,
         scrollOverflow: true,
+        scrollOverflowEndPrevent: { delay: 500, reversal: false },
         resize : true,
         anchors:['home', 'project1', 'project2', 'project3', 'project4', 'project5', 'project6', 'project7', 'project8'],
         autoScrolling: true,
