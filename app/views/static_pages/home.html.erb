@@ -1,55 +1,26 @@
 <div id="fullpage">
   <div class="section fp-auto-height-responsive" id="aboutMe">
     <div class="slide" id="slide1" data-anchor="Home">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-2">
-            <figure class="figure float-left mt-2">
-              <%= image_tag("me.png", class: "image") %>
-            </figure>
-          </div>
-          <div class="col-12 col-md-10 px-0">
-            <div class="container">
-              <div class="row">
-                <div class="col mt-2">
-                  <h5 class="float-left"><i class="fas fa-phone"></i> 07515478431</h5>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <h5 class="float-left"><i class="fas fa-envelope"></i> vandy18@gmail.com</h5>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <h5 class="float-left"><i class="fab fa-linkedin"></i> <%= link_to "Vandana Sharma", "https://www.linkedin.com/in/vandana-sharma-a5213558", class: "btn-custom" %></h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h1>Vandana Sharma</h1>
-            <h4 class="font-italic">Dip Arch, B.Arch, Associate of Indian Institute of Architecture</h4>
-            <hr>
-            <p>I have over 22 years of experience in the field of architecture and have worked with a number of architectural firms in India and UK. During my career I have worked on a variety of projects,
-              ranging from large scale luxury housing to renewable energy plants and gave gained expertise in designing a vast variety of commercial and residential projects. My role as the Director of my own company VSDesignSolutions
-              for the past year has also given me an insight into the managerial side of the workplace, showing me the various steps needed to be taken when approaching councils for planning permission. The following pages should help to showcase my talents.</p>
-          </div>
-        </div>
-      </div>
+      <%= render("layouts/home/aboutme") %>
+    </div>
+  </div>
+  <div class="section" id="VSDesign0">
+    <div class="slide" id="slide2" data-anchor="VSslide1">
+      <%= render('layouts/VSDesign/44 Hawlkingcroft/slide1') %>
+    </div>
+    <div class="slide" id="slide1" data-anchor="VSslide2">
+      <%= render('layouts/VSDesign/44 Hawlkingcroft/slide2') %>
+    </div>
+    <div class="slide" id="slide2" data-anchor="VS0_2">
+      <%= render('layouts/VSDesign/44 Hawlkingcroft/slide3') %>
     </div>
   </div>
   <div class="section fp-auto-height-responsive" id="VSDesign">
     <div class="slide" id="slide1" data-anchor="VS0">
-      <%= render('layouts/VSDesign/44 Hawlkingcroft/slide1') %>
+      <%= render("layouts/VSDesign/572 Hanworth Road, Richmond/slide1") %>
     </div>
     <div class="slide" id="slide2" data-anchor="VS0_1">
-      <%= render('layouts/VSDesign/44 Hawlkingcroft/slide2') %>
-    </div>
-    <div class="slide" id="slide1" data-anchor="VS0_2">
-      <%= render('layouts/VSDesign/44 Hawlkingcroft/slide3') %>
+      <%= render("layouts/VSDesign/572 Hanworth Road, Richmond/slide2") %>
     </div>
   </div>
   <div class="section fp-auto-height-responsive" id="VSDesign1">
