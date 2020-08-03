@@ -256,7 +256,7 @@ DEPENDENCIES
   jquery-ui-rails
   newrelic_rpm
   pg
-  puma (~> 3.11)
+  puma
   rails (~> 5.2.4, >= 5.2.4.3)
   rails_real_favicon
   sass-rails (~> 5.0)
