@@ -36,3 +36,8 @@ $(window).scroll(function(e) {
     previousScroll = scroll;
 
 });
+
+window.addEventListener('load', function() {
+    console.log('All assets are loaded at')
+    $(".loader-wrapper").fadeOut("slow", "swing");
+})
