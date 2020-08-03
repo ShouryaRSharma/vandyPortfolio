@@ -25,9 +25,10 @@
       <span class="loader"><span class="loader-inner"></span></span>
     </div>
     <script>
-        $(window).on("load",function(){
-            $(".loader-wrapper").fadeOut("slow");
-        });
+        window.addEventListener('load', function() {
+            console.log('All assets are loaded at')
+            $(".loader-wrapper").fadeOut("slow", "swing");
+        })
     </script>
   </body>
 </html>
