@@ -11,14 +11,16 @@ h1 {
 }
 
 .section {
-  text-align:center;
+  text-align: center;
+
 }
 
-#section0, #section1, #section2,
+section0, #section1, #section2,
 #section3, #section4 {
   background-size: cover;
 }
 #section1 {
+
   //background-image: image-url("slide2.png");
   h1 {
     top: 0;
@@ -48,6 +50,9 @@ h1 {
 
 
 #slide2 {
+  .container {
+    margin-top: 0.5rem;
+  }
   text-align: left;
   background-color: #343a40;
   h1 {
@@ -57,22 +62,16 @@ h1 {
     font-family: $font;
     color: white;
   }
-  //
-  //p {
-  //  font-size: 1.25rem;
-  //}
-
 }
-
-.navbar:after {
-  border-bottom: 1px solid black;
+.space {
+  justify-content: space-around;
 }
 
 #slide1 {
   background-color: #f8f9fa;
-  //h1, h3, p {
-  //  color: #fffc5f;
-  //}
+  .container {
+    margin-top: 0.5rem;
+  }
   h1 {
     font-size: 3.25em;
   }
@@ -80,7 +79,6 @@ h1 {
     font-family: $font;
     text-align: left;
   }
-
   //p {
   //  font-size: 1.25rem;
   //}
@@ -106,7 +104,7 @@ h1 {
 }
 
 .construction {
-  margin-top: 4.5rem;
+  margin-top: 3.5rem;
   border: 1px solid black;
 }
 

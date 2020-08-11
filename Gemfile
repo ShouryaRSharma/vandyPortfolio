@@ -15,6 +15,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'serviceworker-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -37,6 +38,7 @@ gem 'cloudinary'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'newrelic_rpm'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -48,6 +50,11 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'rails_real_favicon'
+  gem 'listen'
+  gem 'guard'
+  gem 'guard-livereload', '~> 2.5', require: false
+  gem 'rack-livereload'
+
 end
 
 group :test do
